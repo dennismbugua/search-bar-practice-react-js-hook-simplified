@@ -72,18 +72,32 @@ export default function App() {
         <div className="results" aria-live="polite">
           {debounced ? (
             results.length > 0 ? (
-              <ul role="listbox" className="list">
-                {results.map((item, i) => (
-                  <li key={item} role="option" tabIndex={0} className="list-item">
-                    <Highlight text={item} query={debounced} />
-                  </li>
-                ))}
-              </ul>
+              <>
+                <div className="results-header">
+                  <div className="result-count">
+                    Found <strong>{results.length}</strong> {results.length === 1 ? 'result' : 'results'} for "{debounced}"
+                  </div>
+                </div>
+                <ul role="listbox" className="list">
+                  {results.map((item, i) => (
+                    <li key={item} role="option" tabIndex={0} className="list-item">
+                      <Highlight text={item} query={debounced} />
+                    </li>
+                  ))}
+                </ul>
+              </>
             ) : (
-              <div className="empty">No results for “{debounced}”</div>
+              <div className="empty">
+                No results found for "<strong>{debounced}</strong>"
+                <span style={{ fontSize: '0.875rem', opacity: 0.8 }}>Try a different search term</span>
+              </div>
             )
           ) : (
-            <div className="hint">Try searching for: <strong>Alexa</strong>, <strong>Google</strong>, <strong>Twitter</strong></div>
+            <div className="hint">
+              Start typing to search through <strong>{people.length}</strong> names
+              <br />
+              Try: <strong>Alexa</strong>, <strong>Google</strong>, or <strong>Twitter</strong>
+            </div>
           )}
         </div>
       </section>
