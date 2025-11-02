@@ -940,8 +940,6 @@ Ready to take this further? Here's what to implement next:
 
 <div align="center">
 
-**Built with ❤️ using React and modern web standards**
-
 [⬆ Back to Top](#-quick-search--professional-react-search-component)
 
 </div>
