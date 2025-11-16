@@ -27,6 +27,8 @@ A beautifully crafted, lightning-fast search interface that showcases modern UX 
 
 ### Live Demo Experience
 
+[![YT Video](https://www.searchenginejournal.com/wp-content/uploads/2025/03/alternative-search-710.png])](https://youtu.be/p-_0GhV3jqQ "⚡ Quick Search — Professional React Search Component")
+
 The component includes:
 - **Smart debouncing** (220ms) that reduces unnecessary filtering
 - **Click-anywhere focus** — entire search container is interactive
@@ -872,6 +874,7 @@ Contributions are welcome! Here's how to contribute:
 - [ ] Add search history with local storage
 - [ ] Create npm package for easy installation
 
+<<<<<<< HEAD
 ---
 
 ## 📄 License
@@ -943,3 +946,6 @@ Ready to take this further? Here's what to implement next:
 [⬆ Back to Top](#-quick-search--professional-react-search-component)
 
 </div>
+=======
+---
+>>>>>>> 3a74c9d (vid update)
