@@ -27,7 +27,7 @@ A beautifully crafted, lightning-fast search interface that showcases modern UX 
 
 ### Live Demo Experience
 
-[![YT Video](https://www.searchenginejournal.com/wp-content/uploads/2025/03/alternative-search-710.png])](https://youtu.be/p-_0GhV3jqQ "⚡ Quick Search — Professional React Search Component")
+[![YT Video](https://github.com/dennismbugua/search-bar-practice-react-js-hook-simplified/blob/main/public/img/search.webp?raw=true])](https://youtu.be/p-_0GhV3jqQ "⚡ Quick Search — Professional React Search Component")
 
 The component includes:
 - **Smart debouncing** (220ms) that reduces unnecessary filtering
